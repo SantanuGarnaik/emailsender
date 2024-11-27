@@ -7,7 +7,7 @@ const path = require("path");
 require("dotenv").config();
 
 const app = express();
-const port = 3000;
+const port = 8003;
 
 // Middleware to parse JSON
 app.use(bodyParser.json());
